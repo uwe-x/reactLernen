@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.warning {
+  background-color: yellow;
+  text-align: left;
+}
+
+.error {
+  background-color: red;
+  text-align: left;
+}
