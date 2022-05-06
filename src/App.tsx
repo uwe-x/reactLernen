@@ -43,11 +43,16 @@ export default function App() {
       <WarningMessageWithChildren severity="warning">
         With Children: Ich bin eine Warnung !
       </WarningMessageWithChildren>
+      <WarningMessageWithChildren severity="error">
+        With Children: Ich bin eine Error-Meldung !
+      </WarningMessageWithChildren>
       <br />
       <WarningMessageWithoutDestructuring
         severity="error"
         message="Achtung, Fehlermeldung über die Props !"
       />
+      <br />
+      <button onClick={() => alert("Du hast geklickt.")}>Hier klicken</button>
     </div>
   );
 }
