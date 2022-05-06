@@ -46,7 +46,7 @@ export default function App() {
       <br />
       <WarningMessageWithoutDestructuring
         severity="error"
-        message="Achtung, Fehlermeldung über die Props!"
+        message="Achtung, Fehlermeldung über die Props !"
       />
     </div>
   );

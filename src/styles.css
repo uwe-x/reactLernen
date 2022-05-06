@@ -10,5 +10,6 @@
 
 .error {
   background-color: red;
+  color: yellow;
   text-align: left;
 }
